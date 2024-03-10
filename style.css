@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+
+    --Grayish-Blue: hsl(217, 19%, 38%);
+    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --Dark-Blue: hsl(218, 23%, 16%);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    font-size: 28px;
+
+    background-color: var(--Dark-Blue);
+
+    width: 100vw; 
+    height: 100vh;
+
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    max-width: 500px;
+    padding: 20px;
+    padding-bottom: 60px;
+    gap: 20px;
+
+    background-color: var(--Dark-Grayish-Blue);
+    border-radius: 10px;
+
+    min-width: 
+}
+
+
+.quote {
+    color: var(--Light-Cyan);
+
+    text-align: center;
+
+}
+
+.adviceHeader {
+
+    color: var(--Neon-Green);
+    font-size: 16px;
+    text-align: center;
+
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+}
+
+.adviceRoll {
+
+    outline: none;
+    border: none;
+
+    background-color: var(--Neon-Green);
+    padding: 20px;
+
+    border-radius: 50%;
+
+    position: relative;
+    top: -35px;
+}
+
+.adviceRoll:hover {
+    cursor: pointer;
+
+}
